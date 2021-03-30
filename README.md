@@ -8,5 +8,5 @@ Wykorzystanie problemu plecakowego do rozwiązania problemu występującego w gr
 python
 
 ## Opis przechowywanych danych
-csv: first_name, second_name, total_points, value_season
+csv: first_name, second_name, total_points, value_season /n
 https://github.com/vaastav/Fantasy-Premier-League/blob/master/data/2019-20/players_raw.csv
