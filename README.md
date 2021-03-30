@@ -1,3 +1,12 @@
+# Projekt-Zespolowy-PWSZ
+## Table of contents
+* [General info](#general-info)
+* [Setup](#setup)
+* [Contact](#contact)
+## General info
+STRONA JESZCZE NIE GOTOWA
+## Setup
+Before you run the server please use these commands:
 ## Table of contents
 * [SI-grupa_laboratoryjna_nr_12](# Skład)
 * [Opis projektu](# Opis projektu)
