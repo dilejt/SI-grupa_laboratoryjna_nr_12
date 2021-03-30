@@ -1,8 +1,8 @@
 ## Table of contents
-* [Skład](#SI-grupa_laboratoryjna_nr_1)
-* [Opis projektu](#Opis projektu)
-* [Język programowania](#Język programowania)
-* [opis przechowywania danych](#Opis przechowywanych danyc)
+* [Skład](# SI-grupa_laboratoryjna_nr_1)
+* [Opis projektu](# Opis projektu)
+* [Język programowania](# Język programowania)
+* [opis przechowywania danych](# Opis przechowywanych danyc)
 #SI-grupa_laboratoryjna_nr_12
 >Created by [Mikołaj Wesołek](https://github.com/wesoly97), [Damian Jancewicz](https://github.com/dilejt), [Kacper Pańkiewicz](https://github.com/kacperPankiewicz)- 
 >feel free to contact us!
