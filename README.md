@@ -1,4 +1,4 @@
-# Projekt-Zespolowy-PWSZ
+# SI-grupa_laboratoryjna_nr_12
 ## Zawartość
 * [SI-grupa_laboratoryjna_nr_12](#general-info)
 * [Opis projektu](#opis)
