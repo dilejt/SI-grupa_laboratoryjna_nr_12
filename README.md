@@ -1,12 +1,12 @@
 # SI-grupa_laboratoryjna_nr_12
 ## Zawartość
-* [SI-grupa_laboratoryjna_nr_12](#general-info)
-* [Opis projektu](#opis)
+* [Zespół](Członkowie)
+* [Opis projektu](#Opis-projektu)
 * [Język programowania](#Język-programowania)
 * [Opis przechowywanych danych](#Opis-przechowywanych-danych)
-## SI-grupa_laboratoryjna_nr_12
->Created by [Mikołaj Wesołek](https://github.com/wesoly97), [Damian Jancewicz](https://github.com/dilejt), [Kacper Pańkiewicz](https://github.com/kacperPankiewicz)- 
->feel free to contact us!
+## Członkowie
+>[Mikołaj Wesołek](https://github.com/wesoly97), [Damian Jancewicz](https://github.com/dilejt), [Kacper Pańkiewicz](https://github.com/kacperPankiewicz)
+
 
 
 ## Opis projektu
