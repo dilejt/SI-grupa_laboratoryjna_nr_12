@@ -1,14 +1,9 @@
 # Projekt-Zespolowy-PWSZ
-## Table of contents
+## Zawartość
 * [SI-grupa_laboratoryjna_nr_12](#general-info)
 * [Opis projektu](#opis)
 * [Język programowania](#Język-programowania)
 * [Opis przechowywanych danych](#Opis-przechowywanych-danych)
-## General info
-STRONA JESZCZE NIE GOTOWA
-## Setup
-Before you run the server please use these commands:
-
 ## SI-grupa_laboratoryjna_nr_12
 >Created by [Mikołaj Wesołek](https://github.com/wesoly97), [Damian Jancewicz](https://github.com/dilejt), [Kacper Pańkiewicz](https://github.com/kacperPankiewicz)- 
 >feel free to contact us!
