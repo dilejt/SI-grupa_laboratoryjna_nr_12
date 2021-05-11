@@ -58,6 +58,7 @@ print("-------------------//////////---------------")
 print("-------------------KONIEC------------")
 starttime = timeit.default_timer()
 hmcr = 70
+par = 15
 x_new_j = [] #### x^new_j
 iter_hm = 0 #### zmienna iteracyjna hm
 while(iter_hm<500): #### dowolna liczba iteracji
@@ -67,6 +68,7 @@ while(iter_hm<500): #### dowolna liczba iteracji
     id_list = []
     iter_hm=iter_hm+1
     r1 = int(random.uniform(1,101)) #### losowe r1 od 1 do 100
+    r2 = int(random.uniform(1,101)) #### losowe r2 od 1 do 100
     if(r1<hmcr):
         for j in range(0,max_len_row): #### j - kolumna
             columnArr = []
@@ -82,6 +84,9 @@ while(iter_hm<500): #### dowolna liczba iteracji
             else:
                 sum_points += float(data[int(columnArr[k])]['total_points'])
                 x_new_j.append(columnArr[k])
+        if(r2<par):
+            randomIndex = int(random.uniform(0,len(x_new_j))) #### k - losowy wiersz
+            x_new_j[randomIndex] = x_new_j[randomIndex] 
     else: 
         while(sum_values < 100):
             rand_id = int(random.uniform(1,total_rows-1)) ### losowanie id
