@@ -61,7 +61,7 @@ hmcr = 70
 par = 15
 x_new_j = [] #### x^new_j
 iter_hm = 0 #### zmienna iteracyjna hm
-while(iter_hm<500): #### dowolna liczba iteracji
+while(iter_hm<3000): #### dowolna liczba iteracji
     sum_values = 0
     sum_points = 0
     rand_id = 0
@@ -85,8 +85,33 @@ while(iter_hm<500): #### dowolna liczba iteracji
                 sum_points += float(data[int(columnArr[k])]['total_points'])
                 x_new_j.append(columnArr[k])
         if(r2<par):
-            randomIndex = int(random.uniform(0,len(x_new_j))) #### k - losowy wiersz
-            x_new_j[randomIndex] = x_new_j[randomIndex] 
+            # print("Wylosowałem r2<par")
+            
+            randomIndex = int(random.uniform(0,len(x_new_j))) #### losowy index w x_new_j
+            randomIndexFromFile = int(random.uniform(1,len(data))) #### losowy index w x_new_j
+
+            while(((float(data[randomIndexFromFile]['value_season'])>float(data[int(x_new_j[randomIndex])]['value_season']))&((float(data[randomIndexFromFile]['total_points'])<float(data[int(x_new_j[randomIndex])]['total_points']))))):
+                randomIndexFromFile = int(random.uniform(1,len(data))) #### losowy index w x_new_j
+            # print("Value_season")
+            # print("--------------------------------------------")
+            # print("nowy pilkarz")
+            # print((data[randomIndexFromFile]['value_season']))
+            # print("*********************************************")
+            # print("stary pilkarz")
+            # print(data[int(x_new_j[randomIndex])]['value_season'])
+            # print("*********************************************")
+            # print("--------------------------------------------")
+            # print("TOTAL POINTS")
+            # print("--------------------------------------------")
+            # print("nowy pilkarz")
+            # print((data[randomIndexFromFile]['total_points']))
+            # print("*********************************************")
+            # print("stary pilkarz")
+            # print(data[int(x_new_j[randomIndex])]['total_points'])
+            # print("*********************************************")
+            # print("--------------------------------------------")
+            x_new_j[randomIndex] = data[randomIndexFromFile]['id'] 
+
     else: 
         while(sum_values < 100):
             rand_id = int(random.uniform(1,total_rows-1)) ### losowanie id
