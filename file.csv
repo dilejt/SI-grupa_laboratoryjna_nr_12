@@ -1,667 +1,516 @@
-id,first_name,second_name,total_points,value_season
-1,Shkodran,Mustafi,43,8.4
-2,Héctor,Bellerín,44,8.5
-3,Sead,Kolasinac,55,10.6
-4,Ainsley,Maitland-Niles,41,9.1
-5,Sokratis,Papastathopoulos,57,11.9
-6,Nacho,Monreal,10,2.0
-7,Laurent,Koscielny,0,0.0
-8,Konstantinos,Mavropanos,0,0.0
-9,Carl,Jenkinson,0,0.0
-10,Rob,Holding,16,3.6
-11,Pierre-Emerick,Aubameyang,205,18.8
-12,Alexandre,Lacazette,118,12.8
-13,Edward,Nketiah,25,5.8
-14,Bernd,Leno,114,23.8
-15,Mesut,Özil,53,7.7
-16,Henrikh,Mkhitaryan,4,0.6
-17,Alex,Iwobi,52,9.3
-18,Granit,Xhaka,73,14.3
-19,Lucas,Torreira,46,9.8
-20,Mohamed,Elneny,0,0.0
-21,Matteo,Guendouzi,48,11.7
-22,Ahmed,El Mohamady,39,9.5
-23,James,Chester,0,0.0
-24,Neil,Taylor,22,5.2
-25,Kortney,Hause,34,7.7
-26,Jonathan,Kodjia,5,0.9
-27,Ørjan,Nyland,15,3.5
-28,Conor,Hourihane,83,14.6
-29,Jack,Grealish,149,25.3
-30,Anwar,El Ghazi,93,17.9
-31,John,McGinn,84,16.2
-32,Andre,Green,0,0.0
-33,Birkir,Bjarnason,0,0.0
-34,Keinan,Davis,25,6.0
-35,Henri,Lansbury,12,2.7
-36,José Ignacio,Peleteiro Romallo,17,3.0
-37,Shane,Duffy,44,9.2
-38,Martín,Montoya,62,14.4
-39,Bernardo,Fernandes da Silva Junior,21,4.9
-40,Leon,Balogun,0,0.0
-41,Gaëtan,Bong,3,0.7
-42,Lewis,Dunk,128,26.7
-43,Matthew,Clarke,0,0.0
-44,Glenn,Murray,36,6.7
-45,Jürgen,Locadia,3,0.6
-46,Florin,Andone,5,1.1
-47,Mathew,Ryan,135,28.7
-48,David,Button,0,0.0
-49,Pascal,Groß,76,12.3
-50,Alireza,Jahanbakhsh,28,4.8
-51,José Heriberto,Izquierdo Mena,0,0.0
-52,Anthony,Knockaert,0,0.0
-53,Yves,Bissouma,39,7.8
-54,Davy,Pröpper,78,16.2
-55,Solomon,March,38,8.3
-56,Beram,Kayal,0,0.0
-57,Dale,Stephens,63,14.3
-58,Steve,Cook,52,10.4
-59,Nathan,Aké,79,16.5
-60,Charlie,Daniels,3,0.7
-61,Chris,Mepham,27,6.3
-62,Simon,Francis,16,3.7
-63,Adam,Smith,49,11.4
-64,Lloyd,Kelly,11,2.5
-65,Diego,Rico,84,20.0
-66,Jack,Simpson,4,1.0
-67,Callum,Wilson,116,15.7
-68,Joshua,King,99,16.2
-69,Dominic,Solanke,69,13.5
-70,Lys,Mousset,84,19.5
-71,Sam,Surridge,4,0.9
-72,Asmir,Begovic,0,0.0
-73,Artur,Boruc,0,0.0
-74,Mark,Travers,1,0.2
-75,Ryan,Fraser,73,10.7
-76,David,Brooks,21,3.4
-77,Junior,Stanislas,42,7.2
-78,Jordon,Ibe,2,0.4
-79,Lewis,Cook,40,8.0
-80,Andrew,Surman,6,1.3
-81,Dan,Gosling,54,11.2
-82,Jefferson,Lerma,65,13.5
-83,Ben,Mee,110,22.4
-84,James,Tarkowski,143,26.0
-85,Matthew,Lowton,48,11.4
-86,Phil,Bardsley,78,17.7
-87,Charlie,Taylor,84,19.5
-88,Kevin,Long,21,4.9
-89,Ben,Gibson,0,0.0
-90,Ashley,Barnes,61,10.0
-91,Chris,Wood,136,21.9
-92,Matej,Vydra,39,7.6
-93,Nick,Pope,170,32.7
-94,Tom,Heaton,59,13.7
-95,Joe,Hart,0,0.0
-96,Johann Berg,Gudmundsson,30,5.1
-97,Dwight,McNeil,123,20.5
-98,Robbie,Brady,32,5.8
-99,Steven,Defour,0,0.0
-100,Jeff,Hendrick,67,12.4
-101,Ashley,Westwood,118,21.5
-102,Jack,Cork,70,14.3
-103,Marcos,Alonso,100,16.4
-104,Antonio,Rüdiger,63,10.7
-105,César,Azpilicueta,130,21.3
-106,David,Luiz Moreira Marinho,94,16.5
-107,Emerson,Palmieri dos Santos,19,3.5
-108,Andreas,Christensen,34,7.1
-109,Davide,Zappacosta,0,0.0
-110,Olivier,Giroud,68,10.1
-111,Kepa,Arrizabalaga,90,16.7
-112,Willy,Caballero,13,2.7
-113,Willian,Borges Da Silva,168,23.0
-114,Pedro,Rodríguez Ledesma,32,4.7
-115,Ruben,Loftus-Cheek,12,2.0
-116,Callum,Hudson-Odoi,53,10.4
-117,Ross,Barkley,61,10.9
-118,Jorge Luiz,Frello Filho,92,18.8
-119,N'Golo,Kanté,57,11.4
-120,Daniel,Drinkwater,6,1.4
-121,Ethan,Ampadu,0,0.0
-122,Aaron,Wan-Bissaka,127,23.1
-123,Patrick,van Aanholt,109,19.5
-124,James,Tomkins,48,9.8
-125,Mamadou,Sakho,11,2.2
-126,Joel,Ward,77,17.9
-127,Scott,Dann,51,11.9
-128,Martin,Kelly,64,15.6
-129,Christian,Benteke,42,7.4
-130,Connor,Wickham,15,3.5
-131,Vicente,Guaita,137,28.0
-132,Wayne,Hennessey,7,1.7
-133,Wilfried,Zaha,120,18.2
-134,Luka,Milivojevic,81,12.1
-135,Andros,Townsend,48,8.6
-136,Max,Meyer,23,4.4
-137,Jeffrey,Schlupp,51,9.4
-138,James,McArthur,92,17.7
-139,Cheikhou,Kouyaté,85,17.7
-140,Luke,Dreher,0,0.0
-141,Lucas,Digne,120,20.3
-142,Yerry,Mina,78,14.7
-143,Michael,Keane,90,17.3
-144,Seamus,Coleman,55,10.4
-145,Leighton,Baines,14,2.9
-146,Cenk,Tosun,24,4.2
-147,Dominic,Calvert-Lewin,126,20.7
-148,Jordan,Pickford,117,22.5
-149,Maarten,Stekelenburg,0,0.0
-150,Richarlison,de Andrade,165,20.1
-151,Gylfi,Sigurdsson,95,13.0
-152,Bernard,Anício Caldeira Duarte,72,11.2
-153,Theo,Walcott,63,10.2
-154,Tom,Davies,59,11.1
-155,Ademola,Lookman,0,0.0
-156,Idrissa,Gueye,0,0.0
-157,James,McCarthy,41,9.8
-158,Morgan,Schneiderlin,18,4.1
-159,Ricardo Domingos,Barbosa Pereira,123,19.8
-160,Harry,Maguire,123,23.2
-161,Benjamin,Chilwell,114,21.1
-162,Jonny,Evans,128,24.2
-163,Christian,Fuchs,26,6.2
-164,Çaglar,Söyüncü,120,24.5
-165,Wes,Morgan,19,4.6
-166,Jamie,Vardy,210,21.6
-167,Kelechi,Iheanacho,64,11.2
-168,Kasper,Schmeichel,156,28.4
-169,Eldin,Jakupovic,0,0.0
-170,Danny,Ward,0,0.0
-171,James,Maddison,125,17.1
-172,Harvey,Barnes,133,22.9
-173,Rachid,Ghezzal,0,0.0
-174,Marc,Albrighton,38,7.5
-175,Demarai,Gray,44,8.8
-176,Wilfred,Ndidi,85,17.0
-177,Matty,James,1,0.2
-178,Daniel,Amartey,0,0.0
-179,Nampalys,Mendy,11,2.6
-180,Hamza,Choudhury,35,8.3
-181,Andrew,Robertson,181,25.9
-182,Trent,Alexander-Arnold,210,27.3
-183,Virgil,van Dijk,178,27.4
-184,Joseph,Gomez,93,17.5
-185,Joel,Matip,39,7.5
-186,Dejan,Lovren,18,3.4
-187,Roberto,Firmino,155,16.7
-188,Divock,Origi,65,12.7
-189,Alisson,Ramses Becker,122,19.7
-190,Simon,Mignolet,0,0.0
-191,Mohamed,Salah,233,18.6
-192,Sadio,Mané,221,18.3
-193,Alex,Oxlade-Chamberlain,76,12.5
-194,Xherdan,Shaqiri,15,2.4
-195,Adam,Lallana,27,4.7
-196,Naby,Keita,52,9.0
-197,Fabio Henrique,Tavares,77,14.3
-198,Jordan,Henderson,116,22.3
-199,Georginio,Wijnaldum,107,19.8
-200,James,Milner,49,9.2
-201,Rafael,Camacho,0,0.0
-202,Aymeric,Laporte,63,10.0
-203,Kyle,Walker,114,20.0
-204,Benjamin,Mendy,74,13.5
-205,Fabian,Delph,24,4.5
-206,Oleksandr,Zinchenko,49,9.4
-207,John,Stones,34,6.4
-208,Nicolás,Otamendi,82,17.1
-209,Danilo Luiz,da Silva,0,0.0
-210,Sergio,Agüero,132,11.4
-211,Gabriel Fernando,de Jesus,146,14.7
-212,Ederson,Santana de Moraes,133,21.8
-213,Claudio,Bravo,11,2.3
-214,Raheem,Sterling,204,17.0
-215,Kevin,De Bruyne,251,23.7
-216,Leroy,Sané,1,0.1
-217,Riyad,Mahrez,175,20.3
-218,Bernardo Mota,Veiga de Carvalho e Silva,116,15.3
-219,David,Silva,139,18.5
-220,Phil,Foden,69,12.5
-221,Fernando,Luiz Rosa,55,10.8
-222,Ilkay,Gündogan,65,12.7
-223,Chris,Smalling,0,0.0
-224,Ashley,Young,24,4.4
-225,Victor,Lindelöf,116,21.9
-226,Luke,Shaw,67,12.4
-227,Marcos,Rojo,3,0.6
-228,Eric,Bailly,9,1.9
-229,José Diogo,Dalot Teixeira,4,0.8
-230,Matteo,Darmian,0,0.0
-231,Phil,Jones,2,0.4
-232,Romelu,Lukaku,0,0.0
-233,Marcus,Rashford,177,19.9
-234,Mason,Greenwood,103,21.5
-235,David,de Gea,143,27.0
-236,Sergio,Romero,0,0.0
-237,Lee,Grant,0,0.0
-238,Paul,Pogba,51,6.1
-239,Anthony,Martial,200,23.5
-240,Alexis,Sánchez,0,0.0
-241,Jesse,Lingard,32,5.1
-242,Juan,Mata,38,6.2
-243,Daniel,James,95,16.7
-244,Frederico,Rodrigues de Paula Santos,50,9.8
-245,Angel,Gomes,2,0.4
-246,Andreas,Pereira,60,12.8
-247,Nemanja,Matic,55,11.5
-248,Scott,McTominay,74,15.4
-249,Tahith,Chong,3,0.7
-250,James,Garner,1,0.2
-251,Matt,Ritchie,74,14.0
-252,Fabian,Schär,55,11.0
-253,DeAndre,Yedlin,26,5.9
-254,Federico,Fernández,102,22.2
-255,Paul,Dummett,44,10.2
-256,Javier,Manquillo,65,15.1
-257,Florian,Lejeune,24,5.6
-258,Jamaal,Lascelles,73,17.4
-259,Ciaran,Clark,49,11.4
-260,Yoshinori,Muto,9,1.8
-261,Jose Luis,Mato Sanmartín,0,0.0
-262,Martin,Dubravka,143,28.0
-263,Karl,Darlow,0,0.0
-264,Frederick,Woodman,0,0.0
-265,Ayoze,Pérez,129,21.5
-266,Miguel,Almirón,109,18.8
-267,Christian,Atsu,37,7.0
-268,Sung-yueng,Ki,4,0.9
-269,Jonjo,Shelvey,105,21.4
-270,Sean,Longstaff,44,8.8
-271,Isaac,Hayden,73,16.6
-272,Timm,Klose,9,2.1
-273,Ben,Godfrey,38,8.6
-274,Maximillian,Aarons,66,15.7
-275,Christoph,Zimmermann,35,8.0
-276,Jamal,Lewis,48,10.9
-277,Grant,Hanley,23,5.8
-278,Teemu,Pukki,139,21.7
-279,Dennis,Srbeny,13,2.5
-280,Tim,Krul,109,23.7
-281,Michael,McGovern,11,2.7
-282,Mario,Vrancic,29,4.7
-283,Emiliano,Buendía,94,15.7
-284,Onel,Hernández,52,9.8
-285,Marco,Stiepermann,32,6.4
-286,Kenny,McLean,77,16.0
-287,Todd,Cantwell,111,24.7
-288,Moritz,Leitner,16,3.7
-289,Alexander,Tettey,67,15.2
-290,Tom,Trybull,28,6.5
-291,Enda,Stevens,142,27.3
-292,Kieron,Freeman,2,0.5
-293,Jack,O'Connell,111,24.7
-294,George,Baldock,142,28.4
-295,John,Egan,133,28.3
-296,Richard,Stearman,0,0.0
-297,John,Lundstram,144,31.3
-298,Billy,Sharp,57,11.0
-299,Jake,Eastwood,0,0.0
-300,Mark,Duffy,0,0.0
-301,John,Fleck,101,21.5
-302,Oliver,Norwood,98,20.9
-303,David,McGoldrick,65,12.0
-304,Jannik,Vestergaard,51,11.3
-305,Ryan,Bertrand,75,15.6
-306,Yan,Valery,18,3.9
-307,Jan,Bednarek,84,19.1
-308,Jack,Stephens,85,19.3
-309,Matt,Targett,80,18.6
-310,Maya,Yoshida,10,2.4
-311,Kayne,Ramsay,0,0.0
-312,Charlie,Austin,0,0.0
-313,Danny,Ings,198,26.1
-314,Michael,Obafemi,45,9.2
-315,Shane,Long,62,13.5
-316,Sam,Gallagher,0,0.0
-317,Fraser,Forster,0,0.0
-318,Alex,McCarthy,104,23.1
-319,Angus,Gunn,29,6.9
-320,Nathan,Redmond,107,17.3
-321,James,Ward-Prowse,117,20.5
-322,Mohamed,Elyounoussi,0,0.0
-323,Stuart,Armstrong,98,18.8
-324,Mario,Lemina,0,0.0
-325,Pierre-Emile,Højbjerg,75,15.6
-326,Tyreke,Johnson,0,0.0
-327,Callum,Slattery,0,0.0
-328,Oriol,Romeu Vidal,51,11.9
-329,Ben,Davies,41,7.7
-330,Jan,Vertonghen,62,11.9
-331,Toby,Alderweireld,97,18.3
-332,Danny,Rose,47,8.9
-333,Davinson,Sánchez,64,12.1
-334,Kieran,Trippier,0,0.0
-335,Juan,Foyth,3,0.6
-336,Serge,Aurier,124,24.3
-337,Kyle,Walker-Peters,32,7.3
-338,Harry,Kane,158,14.4
-339,Vincent,Janssen,0,0.0
-340,Hugo,Lloris,98,18.5
-341,Paulo,Gazzaniga,58,14.1
-342,Heung-Min,Son,169,17.4
-343,Christian,Eriksen,48,5.6
-344,Bamidele,Alli,117,14.1
-345,Lucas,Rodrigues Moura da Silva,100,14.3
-346,Erik,Lamela,65,11.4
-347,Harry,Winks,52,10.0
-348,Victor,Wanyama,1,0.2
-349,Moussa,Sissoko,69,14.4
-350,Eric,Dier,36,7.5
-351,Luke,Amos,0,0.0
-352,Oliver,Skipp,7,1.7
-353,José,Holebas,21,4.6
-354,Christian,Kabasele,73,17.0
-355,Adam,Masina,66,15.3
-356,Adrian,Mariappa,26,6.3
-357,Francisco,Femenía Far,54,12.9
-358,Craig,Cathcart,77,18.8
-359,Daryl,Janmaat,36,9.0
-360,Marc,Navarro,0,0.0
-361,Sebastian,Prödl,1,0.3
-362,Troy,Deeney,109,17.6
-363,Gerard,Deulofeu,88,14.4
-364,Andre,Gray,39,7.1
-365,Isaac,Success Ajayi,4,0.9
-366,Ben,Foster,137,28.0
-367,Pontus,Dahlberg,0,0.0
-368,Abdoulaye,Doucouré,113,20.9
-369,Roberto,Pereyra,60,10.7
-370,Will,Hughes,62,11.7
-371,Tom,Cleverley,33,6.9
-372,Ken,Sema,0,0.0
-373,Etienne,Capoue,78,16.2
-374,Nathaniel,Chalobah,36,8.2
-375,Domingos,Quina,4,0.9
-376,Aaron,Cresswell,79,17.6
-377,Angelo,Ogbonna,81,18.0
-378,Arthur,Masuaku,26,6.3
-379,Pablo,Zabaleta,10,2.4
-380,Ryan,Fredericks,74,16.8
-381,Issa,Diop,76,17.7
-382,Fabián,Balbuena,40,9.3
-383,Winston,Reid,0,0.0
-384,Ben,Johnson,6,1.5
-385,Marko,Arnautovic,0,0.0
-386,Javier,Hernández Balcázar,9,1.5
-387,Alexandre Nascimento,Costa Silva,0,0.0
-388,Lukasz,Fabianski,83,16.9
-389,Michail,Antonio,111,15.6
-390,Felipe Anderson,Pereira Gomes,66,10.0
-391,Manuel,Lanzini,50,8.2
-392,Andriy,Yarmolenko,70,13.5
-393,Robert,Snodgrass,87,17.4
-394,Jack,Wilshere,8,1.7
-395,Declan,Rice,105,22.3
-396,Mark,Noble,105,21.4
-397,Carlos,Sánchez,7,1.6
-398,Grady,Diangana,0,0.0
-399,Pablo,Fornals,93,15.5
-400,Pedro,Obiang,0,0.0
-401,Matt,Doherty,167,25.7
-402,Jonathan,Castro Otto,123,22.4
-403,Conor,Coady,118,23.1
-404,Ryan,Bennett,32,6.7
-405,Willy,Boly,97,19.8
-406,Rúben Gonçalo,Silva Nascimento Vinagre,32,7.8
-407,Romain,Saïss,103,21.9
-408,Max,Kilman,5,1.3
-409,Raúl,Jiménez,194,24.2
-410,Diogo,Jota,105,17.5
-411,Rui Pedro,dos Santos Patrício,153,28.9
-412,John,Ruddy,0,0.0
-413,Will,Norris,0,0.0
-414,Rúben Diogo,da Silva Neves,97,18.7
-415,João Filipe Iria,Santos Moutinho,113,21.3
-416,Morgan,Gibbs-White,11,2.3
-417,Adama,Traoré,130,23.2
-418,Hélder,Costa,0,0.0
-419,Ivan,Cavaleiro,0,0.0
-420,Leander,Dendoncker,100,22.7
-421,Leandro,Trossard,104,17.9
-422,André Filipe,Tavares Gomes,39,7.5
-423,Chris,Basham,123,26.7
-423,Emiliano,Martínez,33,7.5
-424,Wesley,Moraes,67,12.4
-425,Jed,Steer,1,0.2
-426,Aaron,Lennon,15,3.3
-427,Christian,Pulisic,127,17.2
-428,Mateo,Kovacic,68,12.8
-429,James,Justin,35,7.4
-430,Josip,Drmic,26,4.9
-431,Patrick,Roberts,3,0.6
-432,Simon,Moore,3,0.7
-433,Che,Adams,78,14.7
-434,Moussa,Djenepo,40,7.7
-435,Craig,Dawson,61,12.7
-436,José Ángel,Esmorís Tasende,11,2.4
-437,Luke,Freeman,13,2.6
-438,Tanguy,Ndombele,45,7.8
-439,Rodrigo,Hernandez,92,17.4
-440,Phil,Jagielka,6,1.5
-441,Tyrone,Mings,90,20.5
-442,Jack,Stacey,39,9.1
-443,Erik,Pieters,77,17.9
-444,Youri,Tielemans,117,19.2
-445,Ralf,Fahrmann,1,0.2
-446,Roberto,Jimenez Gago,18,4.1
-447,Jay,Rodriguez,100,17.5
-448,Ezri,Konsa Ngoyo,65,15.1
-449,Callum,Robinson,33,6.7
-450,Sam,Byram,32,7.4
-451,Bjorn,Engels,42,9.8
-452,Ravel,Morrison,1,0.2
-453,Sébastien,Haller,102,15.0
-454,Frédéric,Guilbert,62,14.4
-455,Kurt,Zouma,62,13.2
-456,Tammy,Abraham,153,21.0
-457,Michy,Batshuayi,28,4.2
-458,Robert Kenedy,Nunes do Nascimento,0,0.0
-459,Mason,Mount,137,22.8
-460,Rhian,Brewster,0,0.0
-461,Mahmoud Ahmed,Ibrahim Hassan,98,18.8
-462,Joelinton Cássio,Apolinário de Lira,78,14.2
-463,Calum,Chambers,42,9.8
-464,Jordan,Ayew,132,25.9
-465,Daniel,Ceballos Fernández,57,11.0
-466,Douglas Luiz,Soares de Paulo,90,20.9
-467,Dean,Henderson,160,30.8
-468,Ben,Osborn,19,4.0
-469,Jesús,Vallejo Lázaro,1,0.2
-470,Lovre,Kalinic,0,0.0
-471,Dan,Burn,86,19.1
-472,Philip,Billing,68,13.9
-473,Lewis,Gibson,0,0.0
-474,Mason,Holgate,71,16.9
-475,Jonas,Lössl,0,0.0
-476,Andy,King,0,0.0
-477,Axel,Tuanzebe,7,1.6
-478,Jack,Colback,0,0.0
-479,Jacob,Murphy,0,0.0
-480,Philip,Heise,0,0.0
-481,Wesley,Hoedt,0,0.0
-482,Cédric,Soares,61,12.7
-483,Patrick,Cutrone,23,4.3
-484,Nicolas,Pépé,106,11.9
-485,Reiss,Nelson,30,5.7
-486,Joseph,Willock,41,8.7
-487,Marvelous,Nakamba,43,9.8
-488,Arnaut,Danjuma Groeneveld,24,4.1
-489,Adam,Webster,88,20.0
-490,Aaron,Ramsdale,126,28.6
-491,Bailey,Peacock-Farrell,0,0.0
-492,Moise,Kean,53,8.4
-493,Jean-Philippe,Gbamin,4,0.8
-494,Jetro,Willems,64,14.9
-495,Rolando,Aarons,0,0.0
-496,Allan,Saint-Maximin,92,17.7
-497,Oliver,McBurnie,86,15.6
-498,Neal,Maupay,131,23.0
-499,Gary,Cahill,70,16.3
-500,Gabriel Teodoro,Martinelli Silva,39,9.3
-501,Harry,Wilson,91,16.0
-502,Reece,James,61,12.4
-503,Ibrahim,Amadou,18,4.0
-504,Sofiane,Boufal,34,6.2
-505,Troy,Parrott,2,0.5
-506,Víctor,Camarasa,1,0.2
-507,Djibril,Sidibé,74,14.8
-508,Danny,Welbeck,39,6.7
-509,Heurelho da Silva,Gomes,0,0.0
-510,Albian,Ajeti,9,1.6
-511,Kieran,Tierney,42,7.9
-512,Aaron,Mooy,80,17.0
-513,Dennis,Praet,54,10.4
-514,João Pedro Cavaco,Cancelo,45,8.8
-515,Emil,Krafth,37,8.6
-516,Andy,Carroll,34,6.3
-517,Michael,Verrips,0,0.0
-518,Muhamed,Bešić,9,2.1
-519,Giovani,Lo Celso,54,7.4
-520,Ryan,Sessegnon,9,1.7
-521,Ismaïla,Sarr,107,18.1
-522,Adrián,San Miguel del Castillo,27,6.8
-523,Georges-Kévin,Nkoudou,1,0.2
-524,Pedro,Lomba Neto,57,11.6
-525,Fikayo,Tomori,48,11.4
-526,Andy,Lonergan,0,0.0
-527,Caoimhin,Kelleher,0,0.0
-528,Kevin,Danso,9,2.1
-529,Billy,Gilmour,9,2.2
-530,Aaron,Connolly,61,14.5
-531,Daniel,N'Lundulu,0,0.0
-532,Tudor,Baluta,0,0.0
-533,Steven,Alzate,33,7.5
-534,Adam,Idah,13,3.0
-535,Jairo,Riedewald,22,4.9
-536,Matthew,Longstaff,27,6.0
-537,Bukayo,Saka,71,15.1
-538,Dimitri,Foulquier,1,0.3
-539,Alfie,Whiteman,0,0.0
-540,Eric,Garcia,38,8.4
-541,Addji Keaninkin Marc-Israel,Guehi,0,0.0
-542,Ezequiel,Schelotto,9,2.3
-543,Leon,Clarke,2,0.5
-544,Harry,Lewis,0,0.0
-545,Brandon,Williams,51,13.4
-546,Harvey,Elliott,2,0.4
-547,Archie,Mair,0,0.0
-548,Akin,Famewo,1,0.3
-549,David,Martin,20,5.1
-550,Dwight,Gayle,58,11.6
-551,Michel,Vorm,0,0.0
-552,Stephen,Henderson,0,0.0
-553,Beni,Baningime,0,0.0
-554,Brandon,Austin,0,0.0
-555,Bernard,Ashley-Seal,0,0.0
-556,Taylor,Perry,0,0.0
-557,Anthony,Gordon,17,3.8
-558,Scott,Carson,0,0.0
-559,Ayotomiwa,Dele-Bashiru,0,0.0
-560,Christian,Saydee,0,0.0
-561,Gavin,Kilkenny,0,0.0
-562,Owen,Otasowie,0,0.0
-563,Luke,Cundle,0,0.0
-564,Nathan,Holland,2,0.5
-565,Curtis,Jones,13,2.9
-566,Oumar,Niasse,3,0.7
-567,Mace,Goodridge,0,0.0
-568,Anthony,Driscoll-Glennon,0,0.0
-569,Robert,Elliot,0,0.0
-570,Mihai-Alexandru,Dobre,0,0.0
-571,Neco,Williams,14,3.5
-572,Emile,Smith Rowe,4,0.9
-573,Rhu-endly,Martina,0,0.0
-574,Sam,Woods,0,0.0
-575,Tyrick,Mitchell,4,1.0
-576,Brandon,Pierrick,2,0.4
-577,James,Daly,0,0.0
-578,Joseph,Anang,0,0.0
-579,Japhet,Tanganga,17,4.4
-580,William,Smallbone,24,5.3
-581,Tyreece,John-Jules,0,0.0
-582,Tariq,Lamptey,26,6.3
-583,Oskar,Buur,0,0.0
-584,Nya,Kirby,0,0.0
-585,Nathaniel,Phillips,0,0.0
-586,Takumi,Minamino,11,1.9
-587,Jack,Rodwell,1,0.2
-588,João Pedro,Junqueira de Jesus,3,0.6
-589,Jeremy,Ngakia,8,2.0
-590,Gonçalo Bento,Soares Cardoso,0,0.0
-591,Bernardo,Costa Da Rosa,0,0.0
-592,Abd-Al-Ali Morakinyo Olaposi,Koiki,0,0.0
-593,Filip,Benkovic,0,0.0
-594,Thomas,Allan,0,0.0
-595,Kelland,Watts,1,0.3
-596,Indiana,Vassilev,4,0.9
-597,Ondrej,Duda,24,5.5
-598,Lukas,Rupp,19,4.3
-599,José,Reina,41,9.8
-600,Ignacio,Pussetto,6,1.3
-601,Gedson,Carvalho Fernandes,7,1.5
-602,Darren,Randolph,3,0.8
-603,Ryan,Giles,0,0.0
-604,Giovanni,McGregor,0,0.0
-605,Bruno André,Cavaco Jordao,1,0.2
-606,Liam,Gibson,0,0.0
-607,Jack,Robinson,14,3.5
-608,Nabil,Bentaleb,19,4.0
-609,Mbwana,Samatta,29,5.7
-610,Valentino,Lazaro,19,3.6
-611,Steven,Bergwijn,43,6.2
-612,Tomas,Soucek,41,8.5
-613,Pablo,Marí,8,1.8
-614,Bruno Miguel,Borges Fernandes,117,13.0
-615,Daniel,Castelo Podence,25,5.1
-616,Josh,Brownhill,21,4.4
-617,Sander,Berge,40,8.5
-618,Richairo,Zivkovic,5,1.1
-619,Borja,González Tomás,2,0.4
-620,Odion,Ighalo,11,1.9
-621,Panagiotis,Retsos,0,0.0
-622,Jarrod,Bowen,44,6.9
-623,Alexis,Mac Allister,12,2.2
-624,Ki-Jana,Hoever,0,0.0
-625,João Manuel,Neves Virgínia,0,0.0
-626,Faustino,Anjorin,1,0.2
-627,Armando,Broja,1,0.2
-628,Josh,Martin,5,1.1
-629,Nathan,Tella,1,0.2
-630,Harvey,White,0,0.0
-631,Nikola,Tavares,0,0.0
-632,Zech,Medley,0,0.0
-633,Jarrad,Branthwaite,11,2.8
-634,Jimmy,Dunne,0,0.0
-635,Bobby,Thomas,0,0.0
-636,Max,Thompson,1,0.2
-637,Lukas,Jensen,0,0.0
-638,Taylor,Harwood-Bellis,0,0.0
-639,Cole,Palmer,0,0.0
-640,Tommy,Doyle,1,0.2
-641,Jake,Vokins,2,0.5
-642,Matt,Macey,0,0.0
-643,Matthew,Smith,0,0.0
-644,Adalberto,Peñaranda,0,0.0
-645,Alexandre,Jankewitz,0,0.0
-646,Jordan,Thomas,1,0.2
-647,Alfie,Lewis,0,0.0
-648,Leonardo,Campana,0,0.0
-649,Josh,Benson,0,0.0
-650,Will,Ferry,0,0.0
-651,Dennis,Cirkin,0,0.0
-652,Jack,Young,0,0.0
-653,Lewis,Bate,0,0.0
-654,Timothy,Fosu-Mensah,7,1.6
-655,Kaine,Hayden,0,0.0
-656,Luke,Thomas,15,3.8
-657,George,Hirst,2,0.4
-658,Darnell,Johnson,0,0.0
-659,Jacob,Maddox,0,0.0
-660,Conor,Coventry,0,0.0
-661,Joel,Mumbongo,0,0.0
-662,Alex,Cochrane,0,0.0
-663,Ellis,Simms,0,0.0
-664,John-Kymani,Gordon,0,0.0
-665,Daniel,Adshead,0,0.0
+id,first_name,second_name,total_points,value_season
+1,Shkodran,Mustafi,43,8.4
+2,Héctor,Bellerín,44,8.5
+3,Sead,Kolasinac,55,10.6
+4,Ainsley,Maitland-Niles,41,9.1
+5,Sokratis,Papastathopoulos,57,11.9
+6,Nacho,Monreal,10,2
+7,Rob,Holding,16,3.6
+8,Pierre-Emerick,Aubameyang,205,18.8
+9,Alexandre,Lacazette,118,12.8
+10,Edward,Nketiah,25,5.8
+11,Bernd,Leno,114,23.8
+12,Mesut,Özil,53,7.7
+13,Henrikh,Mkhitaryan,4,0.6
+14,Alex,Iwobi,52,9.3
+15,Granit,Xhaka,73,14.3
+16,Lucas,Torreira,46,9.8
+17,Matteo,Guendouzi,48,11.7
+18,Ahmed,El Mohamady,39,9.5
+19,Neil,Taylor,22,5.2
+20,Kortney,Hause,34,7.7
+21,Jonathan,Kodjia,5,0.9
+22,Ørjan,Nyland,15,3.5
+23,Conor,Hourihane,83,14.6
+24,Jack,Grealish,149,25.3
+25,Anwar,El Ghazi,93,17.9
+26,John,McGinn,84,16.2
+27,Keinan,Davis,25,6
+28,Henri,Lansbury,12,2.7
+29,José Ignacio,Peleteiro Romallo,17,3
+30,Shane,Duffy,44,9.2
+31,Martín,Montoya,62,14.4
+32,Bernardo,Fernandes da Silva Junior,21,4.9
+33,Gaëtan,Bong,3,0.7
+34,Lewis,Dunk,128,26.7
+35,Glenn,Murray,36,6.7
+36,Jürgen,Locadia,3,0.6
+37,Florin,Andone,5,1.1
+38,Mathew,Ryan,135,28.7
+39,Pascal,Groß,76,12.3
+40,Alireza,Jahanbakhsh,28,4.8
+41,Yves,Bissouma,39,7.8
+42,Davy,Pröpper,78,16.2
+43,Solomon,March,38,8.3
+44,Dale,Stephens,63,14.3
+45,Steve,Cook,52,10.4
+46,Nathan,Aké,79,16.5
+47,Charlie,Daniels,3,0.7
+48,Chris,Mepham,27,6.3
+49,Simon,Francis,16,3.7
+50,Adam,Smith,49,11.4
+51,Lloyd,Kelly,11,2.5
+52,Diego,Rico,84,20
+53,Jack,Simpson,4,1
+54,Callum,Wilson,116,15.7
+55,Joshua,King,99,16.2
+56,Dominic,Solanke,69,13.5
+57,Lys,Mousset,84,19.5
+58,Sam,Surridge,4,0.9
+59,Mark,Travers,1,0.2
+60,Ryan,Fraser,73,10.7
+61,David,Brooks,21,3.4
+62,Junior,Stanislas,42,7.2
+63,Jordon,Ibe,2,0.4
+64,Lewis,Cook,40,8
+65,Andrew,Surman,6,1.3
+66,Dan,Gosling,54,11.2
+67,Jefferson,Lerma,65,13.5
+68,Ben,Mee,110,22.4
+69,James,Tarkowski,143,26
+70,Matthew,Lowton,48,11.4
+71,Phil,Bardsley,78,17.7
+72,Charlie,Taylor,84,19.5
+73,Kevin,Long,21,4.9
+74,Ashley,Barnes,61,10
+75,Chris,Wood,136,21.9
+76,Matej,Vydra,39,7.6
+77,Nick,Pope,170,32.7
+78,Tom,Heaton,59,13.7
+79,Johann Berg,Gudmundsson,30,5.1
+80,Dwight,McNeil,123,20.5
+81,Robbie,Brady,32,5.8
+82,Jeff,Hendrick,67,12.4
+83,Ashley,Westwood,118,21.5
+84,Jack,Cork,70,14.3
+85,Marcos,Alonso,100,16.4
+86,Antonio,Rüdiger,63,10.7
+87,César,Azpilicueta,130,21.3
+88,David,Luiz Moreira Marinho,94,16.5
+89,Emerson,Palmieri dos Santos,19,3.5
+90,Andreas,Christensen,34,7.1
+91,Olivier,Giroud,68,10.1
+92,Kepa,Arrizabalaga,90,16.7
+93,Willy,Caballero,13,2.7
+94,Willian,Borges Da Silva,168,23
+95,Pedro,Rodríguez Ledesma,32,4.7
+96,Ruben,Loftus-Cheek,12,2
+97,Callum,Hudson-Odoi,53,10.4
+98,Ross,Barkley,61,10.9
+99,Jorge Luiz,Frello Filho,92,18.8
+100,N'Golo,Kanté,57,11.4
+101,Daniel,Drinkwater,6,1.4
+102,Aaron,Wan-Bissaka,127,23.1
+103,Patrick,van Aanholt,109,19.5
+104,James,Tomkins,48,9.8
+105,Mamadou,Sakho,11,2.2
+106,Joel,Ward,77,17.9
+107,Scott,Dann,51,11.9
+108,Martin,Kelly,64,15.6
+109,Christian,Benteke,42,7.4
+110,Connor,Wickham,15,3.5
+111,Vicente,Guaita,137,28
+112,Wayne,Hennessey,7,1.7
+113,Wilfried,Zaha,120,18.2
+114,Luka,Milivojevic,81,12.1
+115,Andros,Townsend,48,8.6
+116,Max,Meyer,23,4.4
+117,Jeffrey,Schlupp,51,9.4
+118,James,McArthur,92,17.7
+119,Cheikhou,Kouyaté,85,17.7
+120,Lucas,Digne,120,20.3
+121,Yerry,Mina,78,14.7
+122,Michael,Keane,90,17.3
+123,Seamus,Coleman,55,10.4
+124,Leighton,Baines,14,2.9
+125,Cenk,Tosun,24,4.2
+126,Dominic,Calvert-Lewin,126,20.7
+127,Jordan,Pickford,117,22.5
+128,Richarlison,de Andrade,165,20.1
+129,Gylfi,Sigurdsson,95,13
+130,Bernard,Anício Caldeira Duarte,72,11.2
+131,Theo,Walcott,63,10.2
+132,Tom,Davies,59,11.1
+133,James,McCarthy,41,9.8
+134,Morgan,Schneiderlin,18,4.1
+135,Ricardo Domingos,Barbosa Pereira,123,19.8
+136,Harry,Maguire,123,23.2
+137,Benjamin,Chilwell,114,21.1
+138,Jonny,Evans,128,24.2
+139,Christian,Fuchs,26,6.2
+140,Çaglar,Söyüncü,120,24.5
+141,Wes,Morgan,19,4.6
+142,Jamie,Vardy,210,21.6
+143,Kelechi,Iheanacho,64,11.2
+144,Kasper,Schmeichel,156,28.4
+145,James,Maddison,125,17.1
+146,Harvey,Barnes,133,22.9
+147,Marc,Albrighton,38,7.5
+148,Demarai,Gray,44,8.8
+149,Wilfred,Ndidi,85,17
+150,Matty,James,1,0.2
+151,Nampalys,Mendy,11,2.6
+152,Hamza,Choudhury,35,8.3
+153,Andrew,Robertson,181,25.9
+154,Trent,Alexander-Arnold,210,27.3
+155,Virgil,van Dijk,178,27.4
+156,Joseph,Gomez,93,17.5
+157,Joel,Matip,39,7.5
+158,Dejan,Lovren,18,3.4
+159,Roberto,Firmino,155,16.7
+160,Divock,Origi,65,12.7
+161,Alisson,Ramses Becker,122,19.7
+162,Mohamed,Salah,233,18.6
+163,Sadio,Mané,221,18.3
+164,Alex,Oxlade-Chamberlain,76,12.5
+165,Xherdan,Shaqiri,15,2.4
+166,Adam,Lallana,27,4.7
+167,Naby,Keita,52,9
+168,Fabio Henrique,Tavares,77,14.3
+169,Jordan,Henderson,116,22.3
+170,Georginio,Wijnaldum,107,19.8
+171,James,Milner,49,9.2
+172,Aymeric,Laporte,63,10
+173,Kyle,Walker,114,20
+174,Benjamin,Mendy,74,13.5
+175,Fabian,Delph,24,4.5
+176,Oleksandr,Zinchenko,49,9.4
+177,John,Stones,34,6.4
+178,Nicolás,Otamendi,82,17.1
+179,Sergio,Agüero,132,11.4
+180,Gabriel Fernando,de Jesus,146,14.7
+181,Ederson,Santana de Moraes,133,21.8
+182,Claudio,Bravo,11,2.3
+183,Raheem,Sterling,204,17
+184,Kevin,De Bruyne,251,23.7
+185,Leroy,Sané,1,0.1
+186,Riyad,Mahrez,175,20.3
+187,Bernardo Mota,Veiga de Carvalho e Silva,116,15.3
+188,David,Silva,139,18.5
+189,Phil,Foden,69,12.5
+190,Fernando,Luiz Rosa,55,10.8
+191,Ilkay,Gündogan,65,12.7
+192,Ashley,Young,24,4.4
+193,Victor,Lindelöf,116,21.9
+194,Luke,Shaw,67,12.4
+195,Marcos,Rojo,3,0.6
+196,Eric,Bailly,9,1.9
+197,José Diogo,Dalot Teixeira,4,0.8
+198,Phil,Jones,2,0.4
+199,Marcus,Rashford,177,19.9
+200,Mason,Greenwood,103,21.5
+201,David,de Gea,143,27
+202,Paul,Pogba,51,6.1
+203,Anthony,Martial,200,23.5
+204,Jesse,Lingard,32,5.1
+205,Juan,Mata,38,6.2
+206,Daniel,James,95,16.7
+207,Frederico,Rodrigues de Paula Santos,50,9.8
+208,Angel,Gomes,2,0.4
+209,Andreas,Pereira,60,12.8
+210,Nemanja,Matic,55,11.5
+211,Scott,McTominay,74,15.4
+212,Tahith,Chong,3,0.7
+213,James,Garner,1,0.2
+214,Matt,Ritchie,74,14
+215,Fabian,Schär,55,11
+216,DeAndre,Yedlin,26,5.9
+217,Federico,Fernández,102,22.2
+218,Paul,Dummett,44,10.2
+219,Javier,Manquillo,65,15.1
+220,Florian,Lejeune,24,5.6
+221,Jamaal,Lascelles,73,17.4
+222,Ciaran,Clark,49,11.4
+223,Yoshinori,Muto,9,1.8
+224,Martin,Dubravka,143,28
+225,Ayoze,Pérez,129,21.5
+226,Miguel,Almirón,109,18.8
+227,Christian,Atsu,37,7
+228,Sung-yueng,Ki,4,0.9
+229,Jonjo,Shelvey,105,21.4
+230,Sean,Longstaff,44,8.8
+231,Isaac,Hayden,73,16.6
+232,Timm,Klose,9,2.1
+233,Ben,Godfrey,38,8.6
+234,Maximillian,Aarons,66,15.7
+235,Christoph,Zimmermann,35,8
+236,Jamal,Lewis,48,10.9
+237,Grant,Hanley,23,5.8
+238,Teemu,Pukki,139,21.7
+239,Dennis,Srbeny,13,2.5
+240,Tim,Krul,109,23.7
+241,Michael,McGovern,11,2.7
+242,Mario,Vrancic,29,4.7
+243,Emiliano,Buendía,94,15.7
+244,Onel,Hernández,52,9.8
+245,Marco,Stiepermann,32,6.4
+246,Kenny,McLean,77,16
+247,Todd,Cantwell,111,24.7
+248,Moritz,Leitner,16,3.7
+249,Alexander,Tettey,67,15.2
+250,Tom,Trybull,28,6.5
+251,Enda,Stevens,142,27.3
+252,Kieron,Freeman,2,0.5
+253,Jack,O'Connell,111,24.7
+254,George,Baldock,142,28.4
+255,John,Egan,133,28.3
+256,John,Lundstram,144,31.3
+257,Billy,Sharp,57,11
+258,John,Fleck,101,21.5
+259,Oliver,Norwood,98,20.9
+260,David,McGoldrick,65,12
+261,Jannik,Vestergaard,51,11.3
+262,Ryan,Bertrand,75,15.6
+263,Yan,Valery,18,3.9
+264,Jan,Bednarek,84,19.1
+265,Jack,Stephens,85,19.3
+266,Matt,Targett,80,18.6
+267,Maya,Yoshida,10,2.4
+268,Danny,Ings,198,26.1
+269,Michael,Obafemi,45,9.2
+270,Shane,Long,62,13.5
+271,Alex,McCarthy,104,23.1
+272,Angus,Gunn,29,6.9
+273,Nathan,Redmond,107,17.3
+274,James,Ward-Prowse,117,20.5
+275,Stuart,Armstrong,98,18.8
+276,Pierre-Emile,Højbjerg,75,15.6
+277,Oriol,Romeu Vidal,51,11.9
+278,Ben,Davies,41,7.7
+279,Jan,Vertonghen,62,11.9
+280,Toby,Alderweireld,97,18.3
+281,Danny,Rose,47,8.9
+282,Davinson,Sánchez,64,12.1
+283,Juan,Foyth,3,0.6
+284,Serge,Aurier,124,24.3
+285,Kyle,Walker-Peters,32,7.3
+286,Harry,Kane,158,14.4
+287,Hugo,Lloris,98,18.5
+288,Paulo,Gazzaniga,58,14.1
+289,Heung-Min,Son,169,17.4
+290,Christian,Eriksen,48,5.6
+291,Bamidele,Alli,117,14.1
+292,Lucas,Rodrigues Moura da Silva,100,14.3
+293,Erik,Lamela,65,11.4
+294,Harry,Winks,52,10
+295,Victor,Wanyama,1,0.2
+296,Moussa,Sissoko,69,14.4
+297,Eric,Dier,36,7.5
+298,Oliver,Skipp,7,1.7
+299,José,Holebas,21,4.6
+300,Christian,Kabasele,73,17
+301,Adam,Masina,66,15.3
+302,Adrian,Mariappa,26,6.3
+303,Francisco,Femenía Far,54,12.9
+304,Craig,Cathcart,77,18.8
+305,Daryl,Janmaat,36,9
+306,Sebastian,Prödl,1,0.3
+307,Troy,Deeney,109,17.6
+308,Gerard,Deulofeu,88,14.4
+309,Andre,Gray,39,7.1
+310,Isaac,Success Ajayi,4,0.9
+311,Ben,Foster,137,28
+312,Abdoulaye,Doucouré,113,20.9
+313,Roberto,Pereyra,60,10.7
+314,Will,Hughes,62,11.7
+315,Tom,Cleverley,33,6.9
+316,Etienne,Capoue,78,16.2
+317,Nathaniel,Chalobah,36,8.2
+318,Domingos,Quina,4,0.9
+319,Aaron,Cresswell,79,17.6
+320,Angelo,Ogbonna,81,18
+321,Arthur,Masuaku,26,6.3
+322,Pablo,Zabaleta,10,2.4
+323,Ryan,Fredericks,74,16.8
+324,Issa,Diop,76,17.7
+325,Fabián,Balbuena,40,9.3
+326,Ben,Johnson,6,1.5
+327,Javier,Hernández Balcázar,9,1.5
+328,Lukasz,Fabianski,83,16.9
+329,Michail,Antonio,111,15.6
+330,Felipe Anderson,Pereira Gomes,66,10
+331,Manuel,Lanzini,50,8.2
+332,Andriy,Yarmolenko,70,13.5
+333,Robert,Snodgrass,87,17.4
+334,Jack,Wilshere,8,1.7
+335,Declan,Rice,105,22.3
+336,Mark,Noble,105,21.4
+337,Carlos,Sánchez,7,1.6
+338,Pablo,Fornals,93,15.5
+339,Matt,Doherty,167,25.7
+340,Jonathan,Castro Otto,123,22.4
+341,Conor,Coady,118,23.1
+342,Ryan,Bennett,32,6.7
+343,Willy,Boly,97,19.8
+344,Rúben Gonçalo,Silva Nascimento Vinagre,32,7.8
+345,Romain,Saïss,103,21.9
+346,Max,Kilman,5,1.3
+347,Raúl,Jiménez,194,24.2
+348,Diogo,Jota,105,17.5
+349,Rui Pedro,dos Santos Patrício,153,28.9
+350,Rúben Diogo,da Silva Neves,97,18.7
+351,João Filipe Iria,Santos Moutinho,113,21.3
+352,Morgan,Gibbs-White,11,2.3
+353,Adama,Traoré,130,23.2
+354,Leander,Dendoncker,100,22.7
+355,Leandro,Trossard,104,17.9
+356,André Filipe,Tavares Gomes,39,7.5
+357,Chris,Basham,123,26.7
+358,Emiliano,Martínez,33,7.5
+359,Wesley,Moraes,67,12.4
+360,Jed,Steer,1,0.2
+361,Aaron,Lennon,15,3.3
+362,Christian,Pulisic,127,17.2
+363,Mateo,Kovacic,68,12.8
+364,James,Justin,35,7.4
+365,Josip,Drmic,26,4.9
+366,Patrick,Roberts,3,0.6
+367,Simon,Moore,3,0.7
+368,Che,Adams,78,14.7
+369,Moussa,Djenepo,40,7.7
+370,Craig,Dawson,61,12.7
+371,José Ángel,Esmorís Tasende,11,2.4
+372,Luke,Freeman,13,2.6
+373,Tanguy,Ndombele,45,7.8
+374,Rodrigo,Hernandez,92,17.4
+375,Phil,Jagielka,6,1.5
+376,Tyrone,Mings,90,20.5
+377,Jack,Stacey,39,9.1
+378,Erik,Pieters,77,17.9
+379,Youri,Tielemans,117,19.2
+380,Ralf,Fahrmann,1,0.2
+381,Roberto,Jimenez Gago,18,4.1
+382,Jay,Rodriguez,100,17.5
+383,Ezri,Konsa Ngoyo,65,15.1
+384,Callum,Robinson,33,6.7
+385,Sam,Byram,32,7.4
+386,Bjorn,Engels,42,9.8
+387,Ravel,Morrison,1,0.2
+388,Sébastien,Haller,102,15
+389,Frédéric,Guilbert,62,14.4
+390,Kurt,Zouma,62,13.2
+391,Tammy,Abraham,153,21
+392,Michy,Batshuayi,28,4.2
+393,Mason,Mount,137,22.8
+394,Mahmoud Ahmed,Ibrahim Hassan,98,18.8
+395,Joelinton Cássio,Apolinário de Lira,78,14.2
+396,Calum,Chambers,42,9.8
+397,Jordan,Ayew,132,25.9
+398,Daniel,Ceballos Fernández,57,11
+399,Douglas Luiz,Soares de Paulo,90,20.9
+400,Dean,Henderson,160,30.8
+401,Ben,Osborn,19,4
+402,Jesús,Vallejo Lázaro,1,0.2
+403,Dan,Burn,86,19.1
+404,Philip,Billing,68,13.9
+405,Mason,Holgate,71,16.9
+406,Axel,Tuanzebe,7,1.6
+407,Cédric,Soares,61,12.7
+408,Patrick,Cutrone,23,4.3
+409,Nicolas,Pépé,106,11.9
+410,Reiss,Nelson,30,5.7
+411,Joseph,Willock,41,8.7
+412,Marvelous,Nakamba,43,9.8
+413,Arnaut,Danjuma Groeneveld,24,4.1
+414,Adam,Webster,88,20
+415,Aaron,Ramsdale,126,28.6
+416,Moise,Kean,53,8.4
+417,Jean-Philippe,Gbamin,4,0.8
+418,Jetro,Willems,64,14.9
+419,Allan,Saint-Maximin,92,17.7
+420,Oliver,McBurnie,86,15.6
+421,Neal,Maupay,131,23
+422,Gary,Cahill,70,16.3
+423,Gabriel Teodoro,Martinelli Silva,39,9.3
+424,Harry,Wilson,91,16
+425,Reece,James,61,12.4
+426,Ibrahim,Amadou,18,4
+427,Sofiane,Boufal,34,6.2
+428,Troy,Parrott,2,0.5
+429,Víctor,Camarasa,1,0.2
+430,Djibril,Sidibé,74,14.8
+431,Danny,Welbeck,39,6.7
+432,Albian,Ajeti,9,1.6
+433,Kieran,Tierney,42,7.9
+434,Aaron,Mooy,80,17
+435,Dennis,Praet,54,10.4
+436,João Pedro Cavaco,Cancelo,45,8.8
+437,Emil,Krafth,37,8.6
+438,Andy,Carroll,34,6.3
+439,Muhamed,Bešić,9,2.1
+440,Giovani,Lo Celso,54,7.4
+441,Ryan,Sessegnon,9,1.7
+442,Ismaïla,Sarr,107,18.1
+443,Adrián,San Miguel del Castillo,27,6.8
+444,Georges-Kévin,Nkoudou,1,0.2
+445,Pedro,Lomba Neto,57,11.6
+446,Fikayo,Tomori,48,11.4
+447,Kevin,Danso,9,2.1
+448,Billy,Gilmour,9,2.2
+449,Aaron,Connolly,61,14.5
+450,Steven,Alzate,33,7.5
+451,Adam,Idah,13,3
+452,Jairo,Riedewald,22,4.9
+453,Matthew,Longstaff,27,6
+454,Bukayo,Saka,71,15.1
+455,Dimitri,Foulquier,1,0.3
+456,Eric,Garcia,38,8.4
+457,Ezequiel,Schelotto,9,2.3
+458,Leon,Clarke,2,0.5
+459,Brandon,Williams,51,13.4
+460,Harvey,Elliott,2,0.4
+461,Akin,Famewo,1,0.3
+462,David,Martin,20,5.1
+463,Dwight,Gayle,58,11.6
+464,Anthony,Gordon,17,3.8
+465,Nathan,Holland,2,0.5
+466,Curtis,Jones,13,2.9
+467,Oumar,Niasse,3,0.7
+468,Neco,Williams,14,3.5
+469,Emile,Smith Rowe,4,0.9
+470,Tyrick,Mitchell,4,1
+471,Brandon,Pierrick,2,0.4
+472,Japhet,Tanganga,17,4.4
+473,William,Smallbone,24,5.3
+474,Tariq,Lamptey,26,6.3
+475,Takumi,Minamino,11,1.9
+476,Jack,Rodwell,1,0.2
+477,João Pedro,Junqueira de Jesus,3,0.6
+478,Jeremy,Ngakia,8,2
+479,Kelland,Watts,1,0.3
+480,Indiana,Vassilev,4,0.9
+481,Ondrej,Duda,24,5.5
+482,Lukas,Rupp,19,4.3
+483,José,Reina,41,9.8
+484,Ignacio,Pussetto,6,1.3
+485,Gedson,Carvalho Fernandes,7,1.5
+486,Darren,Randolph,3,0.8
+487,Bruno André,Cavaco Jordao,1,0.2
+488,Jack,Robinson,14,3.5
+489,Nabil,Bentaleb,19,4
+490,Mbwana,Samatta,29,5.7
+491,Valentino,Lazaro,19,3.6
+492,Steven,Bergwijn,43,6.2
+493,Tomas,Soucek,41,8.5
+494,Pablo,Marí,8,1.8
+495,Bruno Miguel,Borges Fernandes,117,13
+496,Daniel,Castelo Podence,25,5.1
+497,Josh,Brownhill,21,4.4
+498,Sander,Berge,40,8.5
+499,Richairo,Zivkovic,5,1.1
+500,Borja,González Tomás,2,0.4
+501,Odion,Ighalo,11,1.9
+502,Jarrod,Bowen,44,6.9
+503,Alexis,Mac Allister,12,2.2
+504,Faustino,Anjorin,1,0.2
+505,Armando,Broja,1,0.2
+506,Josh,Martin,5,1.1
+507,Nathan,Tella,1,0.2
+508,Jarrad,Branthwaite,11,2.8
+509,Max,Thompson,1,0.2
+510,Tommy,Doyle,1,0.2
+511,Jake,Vokins,2,0.5
+512,Jordan,Thomas,1,0.2
+513,Timothy,Fosu-Mensah,7,1.6
+514,Luke,Thomas,15,3.8
+515,George,Hirst,2,0.4

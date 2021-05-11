@@ -1,5 +1,6 @@
 import csv
 import random
+import timeit
 
 total_rows = 0 ### liczba wszystkich wierszy
 data = [] ### dane wejsciowe w postaci listy
@@ -55,10 +56,11 @@ print("-------------------//////////---------------")
 print(sum_row_pts)
 print("-------------------//////////---------------")
 print("-------------------KONIEC------------")
+starttime = timeit.default_timer()
 hmcr = 70
 x_new_j = [] #### x^new_j
 iter_hm = 0 #### zmienna iteracyjna hm
-while(iter_hm<20): #### dowolna liczba iteracji
+while(iter_hm<500): #### dowolna liczba iteracji
     sum_values = 0
     sum_points = 0
     rand_id = 0
@@ -67,16 +69,19 @@ while(iter_hm<20): #### dowolna liczba iteracji
     r1 = int(random.uniform(1,101)) #### losowe r1 od 1 do 100
     if(r1<hmcr):
         for j in range(0,max_len_row): #### j - kolumna
-            k = int(random.uniform(0,hms)) #### k - losowy wiersz
-            while(not(len(hm[k])>j)): #### jeśli wiersz nie ma tylu kolumn (elementow w wierszu) to losujemy ponownie
-                k = int(random.uniform(0,hms))
-            print(j, max_len_row)
-            sum_values += float(data[int(hm[k][j])]['value_season'])
+            columnArr = []
+            for i in range(0,hms):
+                try:
+                    columnArr.append(hm[i][j])
+                except IndexError:
+                    pass
+            k = int(random.uniform(0,len(columnArr))) #### k - losowy wiersz
+            sum_values += float(data[int(columnArr[k])]['value_season'])
             if(sum_values >= 100):
-                sum_values -= float(data[int(hm[k][j])]['value_season'])
+                sum_values -= float(data[int(columnArr[k])]['value_season'])
             else:
-                sum_points += float(data[int(hm[k][j])]['total_points'])
-                x_new_j.append(hm[k][j])
+                sum_points += float(data[int(columnArr[k])]['total_points'])
+                x_new_j.append(columnArr[k])
     else: 
         while(sum_values < 100):
             rand_id = int(random.uniform(1,total_rows-1)) ### losowanie id
@@ -112,3 +117,4 @@ for row in hm:
 print("-------------------//////////---------------")
 print(sum_row_pts)
 print("-------------------//////////---------------")
+print("The time difference is :", timeit.default_timer() - starttime)
