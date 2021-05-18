@@ -61,7 +61,7 @@ hmcr = 70
 par = 15
 x_new_j = [] #### x^new_j
 iter_hm = 0 #### zmienna iteracyjna hm
-while(iter_hm<10): #### dowolna liczba iteracji
+while(iter_hm<1000): #### dowolna liczba iteracji
     sum_values = 0
     sum_points = 0
     rand_id = 0
@@ -85,13 +85,13 @@ while(iter_hm<10): #### dowolna liczba iteracji
                 sum_points += float(data[int(columnArr[k])]['total_points'])
                 x_new_j.append(columnArr[k])
         if(r2<par):
-            rIndx  = int(random.uniform(0,len(x_new_j))); ## wybranie losowego id z x_new_j
-            
+            rIndx  = int(random.uniform(0,len(x_new_j)-1)); ## wybranie losowego id z x_new_j
+            IndexFinded = int(x_new_j[rIndx]) ## jeden z indexow znalezionych w x_new_j
             ##print( "przed zmiana"+x_new_j[rIndx])
-            randomIndex2 = data[int(random.uniform(0,len(data)))]['id'] ### losowe id z data
-            while(data[rIndx]['value_season']<data[int(randomIndex2)]['value_season']): ##wykonywanie az znajdzie mniejsza wage
-               randomIndex2 = int(data[int(random.uniform(0,len(data)))]['id']) ### losowe id z data
-            x_new_j[rIndx] = data[int(randomIndex2)]['id']
+            randomIndex2 = int(random.uniform(0,len(data)-1)) ### losowe id z data
+            while(data[IndexFinded]['value_season']<data[randomIndex2]['value_season']): ##wykonywanie az znajdzie mniejsza wage
+               randomIndex2 = int(random.uniform(0,len(data)-1)) ### losowe id z data
+            x_new_j[rIndx] = data[randomIndex2]['id']
            ## print( "po zmianie"+x_new_j[rIndx])
             
            
