@@ -89,7 +89,7 @@ while(iter_hm<10): #### dowolna liczba iteracji
             
             ##print( "przed zmiana"+x_new_j[rIndx])
             randomIndex2 = data[int(random.uniform(0,len(data)))]['id'] ### losowe id z data
-            while(data[rIndx]['value_season']>data[int(randomIndex2)]['value_season']): ##wykonywanie az znajdzie mniejsza wage
+            while(data[rIndx]['value_season']<data[int(randomIndex2)]['value_season']): ##wykonywanie az znajdzie mniejsza wage
                randomIndex2 = int(data[int(random.uniform(0,len(data)))]['id']) ### losowe id z data
             x_new_j[rIndx] = data[int(randomIndex2)]['id']
            ## print( "po zmianie"+x_new_j[rIndx])
