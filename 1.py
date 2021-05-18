@@ -76,7 +76,7 @@ hmcr = 70
 par = 15
 x_new_j = [] #### x^new_j
 iter_hm = 0 #### zmienna iteracyjna hm
-while(iter_hm<1000000): #### dowolna liczba iteracji
+while(iter_hm<1000): #### dowolna liczba iteracji
     sum_values = 0
     sum_points = 0
     rand_id = 0
@@ -122,7 +122,7 @@ while(iter_hm<1000000): #### dowolna liczba iteracji
             sum_values += float(row['value_season'])
             sum_values = round(sum_values,2)
             if(len(x_new_j)==ilosc_os):
-                break
+                continue
             elif(sum_values>=100):        
                 sum_values -= float(row['value_season'])
                 break
