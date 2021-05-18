@@ -7,6 +7,7 @@ data = [] ### dane wejsciowe w postaci listy
 sum_pts = 0 ### zmienna iteracyjna
 sum_val = 0 ### zmienna iteracyjna
 hms = 20
+ilosc_os = 14
 sum_row_val = [] ### finałowe wartości
 sum_row_pts = [] ### finałowe punkty
 temp_arr = []
@@ -31,10 +32,22 @@ while(iter_hms < hms):
     while(rand_id in id_list):
         rand_id = int(random.uniform(1,total_rows-1))
     if(sum_val<100):
+        
         row = data[rand_id]
         sum_val += float(row['value_season'])
         sum_val = round(sum_val,2)
-        if(sum_val>=100):
+       
+        if((len(temp_arr)==ilosc_os)): ##ilosc zawodnikow
+            sum_row_val.append(round(sum_val,2))
+            sum_row_pts.append(sum_pts)
+            hm.append(temp_arr)
+            maxLenRow(len(temp_arr))
+            temp_arr = []
+            id_list.append(rand_id)
+            sum_val = 0
+            sum_pts = 0
+            iter_hms += 1
+        elif(sum_val>=100):
             sum_val -= float(row['value_season'])
             sum_row_val.append(round(sum_val,2))
             sum_row_pts.append(sum_pts)
@@ -49,19 +62,25 @@ while(iter_hms < hms):
             sum_pts += round(float(row['total_points']),2)
             temp_arr.append(row['id'])
 
+
 for row in hm:
     print(row)
     print()
 print("-------------------//////////---------------")
 print(sum_row_pts)
 print("-------------------//////////---------------")
+
 print("-------------------KONIEC------------")
 starttime = timeit.default_timer()
 hmcr = 70
 par = 15
 x_new_j = [] #### x^new_j
 iter_hm = 0 #### zmienna iteracyjna hm
+<<<<<<< Updated upstream
 while(iter_hm<3000): #### dowolna liczba iteracji
+=======
+while(iter_hm<1000000): #### dowolna liczba iteracji
+>>>>>>> Stashed changes
     sum_values = 0
     sum_points = 0
     rand_id = 0
@@ -79,7 +98,10 @@ while(iter_hm<3000): #### dowolna liczba iteracji
                     pass
             k = int(random.uniform(0,len(columnArr))) #### k - losowy wiersz
             sum_values += float(data[int(columnArr[k])]['value_season'])
-            if(sum_values >= 100):
+            if(len(x_new_j)==ilosc_os):
+                sum_points += float(data[int(columnArr[k])]['total_points'])
+                break
+            elif(sum_values >= 100):
                 sum_values -= float(data[int(columnArr[k])]['value_season'])
             else:
                 sum_points += float(data[int(columnArr[k])]['total_points'])
@@ -120,7 +142,9 @@ while(iter_hm<3000): #### dowolna liczba iteracji
             row = data[rand_id]
             sum_values += float(row['value_season'])
             sum_values = round(sum_values,2)
-            if(sum_values>=100):        
+            if(len(x_new_j)==ilosc_os):
+                break
+            elif(sum_values>=100):        
                 sum_values -= float(row['value_season'])
                 break
             else:
