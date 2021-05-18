@@ -85,13 +85,15 @@ while(iter_hm<10): #### dowolna liczba iteracji
                 sum_points += float(data[int(columnArr[k])]['total_points'])
                 x_new_j.append(columnArr[k])
         if(r2<par):
-            randomIndex = int(x_new_j[int(random.uniform(0,len(x_new_j)))]) #### k - losowy wiersz z nowego rozwiazania
-           ## print( "test"+x_new_j[randomIndex])
-            randomIndex2 = int(data[int(random.uniform(0,len(data)))]['id']) ### losowe id z data
-            while(data[randomIndex]['value_season']>data[randomIndex2]['value_season']): ##wykonywanie az znajdzie mniejsza wage
+            rIndx  = int(random.uniform(0,len(x_new_j)));
+            randomIndex = x_new_j[rIndx] #### k - losowy wiersz z nowego rozwiazania
+            print( "przed zmiana"+x_new_j[rIndx])
+            randomIndex2 = data[int(random.uniform(0,len(data)))]['id'] ### losowe id z data
+            while(data[rIndx]['value_season']>data[int(randomIndex2)]['value_season']): ##wykonywanie az znajdzie mniejsza wage
                randomIndex2 = int(data[int(random.uniform(0,len(data)))]['id']) ### losowe id z data
-            ##x_new_j[randomIndex] = int(data[randomIndex2]['id'])
-            ##print( "test"+x_new_j[randomIndex])
+            x_new_j[rIndx] = data[int(randomIndex2)]['id']
+            print( "po zmianie"+x_new_j[rIndx])
+            
            
     else: 
         while(sum_values < 100):
