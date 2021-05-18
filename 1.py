@@ -68,7 +68,7 @@ while(iter_hm<10): #### dowolna liczba iteracji
     id_list = []
     iter_hm=iter_hm+1
     r1 = int(random.uniform(1,101)) #### losowe r1 od 1 do 100
-    r2 = 2 #### losowe r2 od 1 do 100
+    r2 = int(random.uniform(1,101)) #### losowe r2 od 1 do 100
     if(r1<hmcr):
         for j in range(0,max_len_row): #### j - kolumna
             columnArr = []
@@ -85,14 +85,14 @@ while(iter_hm<10): #### dowolna liczba iteracji
                 sum_points += float(data[int(columnArr[k])]['total_points'])
                 x_new_j.append(columnArr[k])
         if(r2<par):
-            rIndx  = int(random.uniform(0,len(x_new_j)));
-            randomIndex = x_new_j[rIndx] #### k - losowy wiersz z nowego rozwiazania
-            print( "przed zmiana"+x_new_j[rIndx])
+            rIndx  = int(random.uniform(0,len(x_new_j))); ## wybranie losowego id z x_new_j
+            
+            ##print( "przed zmiana"+x_new_j[rIndx])
             randomIndex2 = data[int(random.uniform(0,len(data)))]['id'] ### losowe id z data
             while(data[rIndx]['value_season']>data[int(randomIndex2)]['value_season']): ##wykonywanie az znajdzie mniejsza wage
                randomIndex2 = int(data[int(random.uniform(0,len(data)))]['id']) ### losowe id z data
             x_new_j[rIndx] = data[int(randomIndex2)]['id']
-            print( "po zmianie"+x_new_j[rIndx])
+           ## print( "po zmianie"+x_new_j[rIndx])
             
            
     else: 
