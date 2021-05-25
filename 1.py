@@ -6,7 +6,7 @@ total_rows = 0 ### liczba wszystkich wierszy
 data = [] ### dane wejsciowe w postaci listy
 sum_pts = 0 ### zmienna iteracyjna
 sum_val = 0 ### zmienna iteracyjna
-hms = 20
+hms = 20 
 sum_row_val = [] ### finałowe wartości
 sum_row_pts = [] ### finałowe punkty
 temp_arr = []
@@ -16,22 +16,22 @@ hm = [] ### finałowa macierz
 
 max_len_row = 0 #### najwieksza liczba elementow w wierszu z finalowej macierzy
 
-def maxLenRow(value): #### funckja obliczajaca max_len_row
+def maxLenRow(value): #### funckja obliczajaca max_len_row, wykonywana po updacie
     global max_len_row
     if(max_len_row<value):
         max_len_row = value
 
 with open('file.csv', 'r', encoding="utf8") as csvfile:
     csvreader = csv.DictReader(csvfile)
-    data = list(csvreader) ### ważne, można wybrać numer wiersza
-    total_rows = len(data)
+    data = list(csvreader)
+    total_rows = len(data) ### liczba pilkarzy
 
 while(iter_hms < hms):
-    rand_id = int(random.uniform(1,total_rows-1)) ### losowanie id
+    rand_id = int(random.uniform(1,total_rows-1)) ### losowanie id pilkarza
     while(rand_id in id_list):
         rand_id = int(random.uniform(1,total_rows-1))
-    if(sum_val<100):
-        row = data[rand_id]
+    row = data[rand_id]
+    if(sum_val<100 and (row['id'] not in temp_arr)):
         sum_val += float(row['value_season'])
         sum_val = round(sum_val,2)
         if(sum_val>=100):
@@ -52,16 +52,18 @@ while(iter_hms < hms):
 for row in hm:
     print(row)
     print()
+
 print("-------------------//////////---------------")
 print(sum_row_pts)
 print("-------------------//////////---------------")
-print("-------------------KONIEC------------")
-starttime = timeit.default_timer()
+print("------------------KONIEC FAZY #1------------")
+print("----------------POCZĄTEK FAZY #2------------")
+starttime = timeit.default_timer() ### sprawdzenie szybkosci wykonywania
 hmcr = 70
 par = 15
 x_new_j = [] #### x^new_j
 iter_hm = 0 #### zmienna iteracyjna hm
-while(iter_hm<500): #### dowolna liczba iteracji
+while(iter_hm<100000): #### dowolna liczba iteracji
     sum_values = 0
     sum_points = 0
     rand_id = 0
@@ -74,19 +76,24 @@ while(iter_hm<500): #### dowolna liczba iteracji
             columnArr = []
             for i in range(0,hms):
                 try:
-                    columnArr.append(hm[i][j])
+                    if hm[i][j] not in columnArr:
+                        columnArr.append(hm[i][j]) #### dodawanie wartosci kazdego wiersza danej kolumny
                 except IndexError:
                     pass
             k = int(random.uniform(0,len(columnArr))) #### k - losowy wiersz
             sum_values += float(data[int(columnArr[k])]['value_season'])
-            if(sum_values >= 100):
+            if(sum_values >= 100 and columnArr[k] in x_new_j):
                 sum_values -= float(data[int(columnArr[k])]['value_season'])
             else:
                 sum_points += float(data[int(columnArr[k])]['total_points'])
                 x_new_j.append(columnArr[k])
         if(r2<par):
-            randomIndex = int(random.uniform(0,len(x_new_j))) #### k - losowy wiersz
-            x_new_j[randomIndex] = x_new_j[randomIndex] 
+            rIndx  = int(random.uniform(0,len(x_new_j)-1)); ## wybranie losowego id z x_new_j
+            IndexFinded = int(x_new_j[rIndx]) ## jeden z indexow znalezionych w x_new_j
+            randomIndex2 = int(random.uniform(0,len(data)-1)) ### losowe id z data
+            while(data[IndexFinded]['value_season']<data[randomIndex2]['value_season']): ##wykonywanie az znajdzie mniejsza wage
+               randomIndex2 = int(random.uniform(0,len(data)-1)) ### losowe id z data
+            x_new_j[rIndx] = data[randomIndex2]['id']
     else: 
         while(sum_values < 100):
             rand_id = int(random.uniform(1,total_rows-1)) ### losowanie id
@@ -105,8 +112,8 @@ while(iter_hm<500): #### dowolna liczba iteracji
         i = 0
         for single_point in sum_row_pts:
             if(single_point==min(sum_row_pts)):
-                print("stary wiersz ",hm[i])
-                print("nowy wiersz ",x_new_j)
+                #print("stary wiersz ",hm[i])
+                #print("nowy wiersz ",x_new_j)
                 hm[i] = x_new_j
                 sum_row_pts[i] = sum_points
                 x_new_j = []
